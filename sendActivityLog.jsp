@@ -124,13 +124,13 @@
                         try{pstmt2.close();}catch(SQLException sqle){}
                 if(conn2 != null)
                         try{conn2.close();}catch(SQLException sqle){}
- 								if(rs2 != null)
+ 		if(rs2 != null)
                         try{rs2.close();}catch(SQLException sqle){}
                 if(pstmt != null)
                         try{pstmt2.close();}catch(SQLException sqle){}
                 if(conn != null)
                         try{conn2.close();}catch(SQLException sqle){}
- 								if(rs != null)
+ 		if(rs != null)
                         try{rs2.close();}catch(SQLException sqle){}
 	    }
  %>
